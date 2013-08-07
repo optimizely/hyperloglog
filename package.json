@@ -2,6 +2,7 @@
   "name": "hyperloglog",
   "version": "0.1.1",
   "description": "HyperLogLog Distinct Value Estimator",
+  "keywords": ["hyperloglog", "cardinality", "hll", "estimator", "stream"],
   "licenses": [
     {
       "name": "MIT",
