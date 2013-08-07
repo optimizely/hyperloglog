@@ -1,7 +1,8 @@
 HyperLogLog Distinct Value Estimator
 ====================================
 
-[HyperLogLog]() (HLL) is a probabilistic estimator of the cardinality of a stream of values. Given
+[HyperLogLog](http://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf) (HLL) is a probabilistic
+estimator of the cardinality of a stream of values. Given
 a bounded amount of memory, it can estimate the cardinality of a stream with bounded relative error
 and it is possible to trade off memory usage for precision. Formally, the standard error for an HLL
 with `n` registers is less than `1.04/sqrt(n)`.
