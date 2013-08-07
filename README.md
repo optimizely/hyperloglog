@@ -14,7 +14,7 @@ Example
 var HyperLogLog = require('hyperloglog');
 var hll = HyperLogLog(12);
 
-// Insert 3 values, two of them distinct.
+// Insert three values, two of them distinct.
 hll.add(HyperLogLog.hash("value1"));
 hll.add(HyperLogLog.hash("value2"));
 hll.add(HyperLogLog.hash("value1"));
