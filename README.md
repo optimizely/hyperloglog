@@ -28,7 +28,7 @@ API
 ### HyperLogLog.hash(string)
 
 In order to count items, they must first be hashed. The `hash()` function provides a suitable hash.
-Its output is an array of four 32 bit postive integers, which, taken together constitute the complete
+Its output is an array of four 32 bit positive integers, which, taken together constitute the complete
 hash of the input string. Currently the implementation is MurmurHash3-128.
 
 ### HyperLogLog(n)
